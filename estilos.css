@@ -1,0 +1,73 @@
+
+body{
+  background-color:bisque ;  
+}
+.div-Titulo{
+    display: flex;
+    color:red;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .container .row .col.titulo h2{
+    display: flex; 
+    color:blue;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+  width: 100%;
+  height: calc(100vh 100px);
+}
+.container .row .col form{
+  width:85%;
+  height: auto;
+  margin: 5px 5px;
+  background-color: rgb(135,132,132);
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items:first center;
+  border-radius:5px;
+  box-shadow: 5px 5px;
+}
+.container .row .col form button{
+padding: 5px 5px;
+margin: 5px 5px;
+width: 55%;
+align-items:center;
+background-color:cornflowerblue;
+}
+.container .row .col form input{
+padding: 3px 3px;
+margin: 3px 3px;
+width: 80%;
+}
+.container .row .div-listado{
+  width:70%;
+  height: 20%;
+  margin: 5px 5px;
+  background-color: rgb(121, 199, 239);
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius:5px;
+  box-shadow: 5px 5px;
+}
+.container .div-listado h3 {
+color:white
+}
+
+.btn{
+  padding: 5px 10px;
+  border-radius: 10;
+  margin: 0 5px;
+  color: write;
+}
+.btn-editar{
+  background-color:#4CAF50 ; /* Green */
+}
+.btn-eliminar{
+  background-color:#FF6347;/* Red */
+}
